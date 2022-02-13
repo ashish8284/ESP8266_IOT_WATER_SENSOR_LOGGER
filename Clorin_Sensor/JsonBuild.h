@@ -18,7 +18,7 @@ void JSON_Pack() {
 
   Gateway_Status = String(MB_STS);
   Residual_Chlorine = String(Data01);
-  HypoClorous_acid = String(Data02);
-  Electrode_Signal = String(Data03);
-  Temperature = String(Data04);
+  HypoClorous_acid = String(Data03);
+  Electrode_Signal = String(Data05);
+  Temperature = String(Data09);
   }
