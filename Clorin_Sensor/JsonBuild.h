@@ -7,9 +7,9 @@ void JSON_Pack() {
   doc["MB_STS"] = MB_STS_JSON;
   JsonObject Sensor = doc.createNestedObject("Sensor");
   Sensor["Residual_Chlorine"] = Data01;
-  Sensor["HypoClorous_acid"] = Data02;
-  Sensor["Electrode_Signal"] = Data03;
-  Sensor["Temperature"] = Data04;
+  Sensor["HypoClorous_acid"] = Data03;
+  Sensor["Electrode_Signal"] = Data05;
+  Sensor["Temperature"] = Data09;
 
   serializeJson(doc, Serial);
   serializeJson(doc, msg);
