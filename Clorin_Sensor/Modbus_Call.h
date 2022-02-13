@@ -9,16 +9,17 @@ void ModbusCall() {
     Serial.println();
     ArduinoOTA.handle();
   }
-  Data01 = MB_BF1[1]
-  Data02 = MB_BF1[2]
-  Data03 = MB_BF1[3]
-  Data04 = MB_BF1[4]
-  Data05 = MB_BF1[5]
-  Data06 = MB_BF1[6]
-  Data07 = MB_BF1[7]
-  Data08 = MB_BF1[8]
-  Data09 = MB_BF1[9]
-  Data10 = MB_BF1[10]
+  Data01 = MB_BF1[1];
+  Data02 = MB_BF1[2];
+  Data03 = MB_BF1[3];
+  Data04 = MB_BF1[4];
+  Data05 = MB_BF1[5];
+  Data06 = MB_BF1[6];
+  Data07 = MB_BF1[7];
+  Data08 = MB_BF1[8];
+  Data09 = MB_BF1[9];
+  Data10 = MB_BF1[10];
+  
   Seral.print(Data01);Serial.print(",");
   Seral.print(Data02);Serial.print(",");
   Seral.print(Data03);Serial.print(",");
