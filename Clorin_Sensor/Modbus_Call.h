@@ -20,16 +20,16 @@ void ModbusCall() {
   Data09 = MB_BF1[9];
   Data10 = MB_BF1[10];
   
-  Seral.print(Data01);Serial.print(",");
-  Seral.print(Data02);Serial.print(",");
-  Seral.print(Data03);Serial.print(",");
-  Seral.print(Data04);Serial.print(",");
-  Seral.print(Data05);Serial.print(",");
-  Seral.print(Data06);Serial.print(",");
-  Seral.print(Data07);Serial.print(",");
-  Seral.print(Data08);Serial.print(",");
-  Seral.print(Data09);Serial.print(",");
-  Seral.print(Data10);Serial.println();
+  Serial.print(Data01);Serial.print(",");
+  Serial.print(Data02);Serial.print(",");
+  Serial.print(Data03);Serial.print(",");
+  Serial.print(Data04);Serial.print(",");
+  Serial.print(Data05);Serial.print(",");
+  Serial.print(Data06);Serial.print(",");
+  Serial.print(Data07);Serial.print(",");
+  Serial.print(Data08);Serial.print(",");
+  Serial.print(Data09);Serial.print(",");
+  Serial.print(Data10);Serial.println();
 
   
   if (millis() - Post_window > Window_Time) {
