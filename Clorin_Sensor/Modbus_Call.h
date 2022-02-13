@@ -28,7 +28,7 @@ void ModbusCall() {
   Seral.print(Data07);Serial.print(",");
   Seral.print(Data08);Serial.print(",");
   Seral.print(Data09);Serial.print(",");
-  Seral.print(Data10);Serial.print(",");
+  Seral.print(Data10);Serial.println();
 
   
   if (millis() - Post_window > Window_Time) {
